@@ -13,7 +13,7 @@
 .background2 {
     background-color: #FFFFFF;
     width: 62rem;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .top_banner {
@@ -57,19 +57,19 @@
 
 .dog_row {
     display: flex;
-    justify-content: space-evenly;
-    flex-shrink: 1;
-    width: 46rem;
+    justify-content: space-evenly;   
     margin: auto;
 }
 
 .dog {
     margin: 1rem;
+    max-width: 32%;
     font-family: "Oswald";
 }
 
 .dog_pic {
-    width: 18rem;
+    width: 100%;
+
 }
 
 .aspect_group {
@@ -88,23 +88,35 @@
 
 .footer {
     display: flex;
-    flex: 1;
-    width: 62rem;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
 
 .foot_menu {
-    color: #FFFFFF;
-    position: relative;
-}
-
-.menu_pic {
-    width: 331px;
     height: 15rem;
+    text-align: center;
+    line-height: 15rem;
+    flex: 1 1 auto;
+    color: #FFFFFF;
 }
 
-.foot_menu_title {
-    position: absolute;
-    bottom: 50%;
-    left: 100px;
+.donate_option {
+    background:
+        linear-gradient(rgba(125, 0, 125, .5), rgba(125, 0, 125, .5)),
+        url(starter_files/images/donate.jpg) top center/cover;
+        width: 33%;
 }
 
+.volunteer_option {
+    background:
+        linear-gradient(rgba(125, 0, 125, .5), rgba(125, 0, 125, .5)),
+        url(starter_files/images/volunteer.jpg) top center/cover;
+        width: 33%;
+}
+
+.location_option {
+    background:
+        linear-gradient(rgba(125, 0, 125, .5), rgba(125, 0, 125, .5)),
+        url(starter_files/images/location.png) top center/cover;
+        width: 33%;
+}
