@@ -52,19 +52,20 @@
 
 .available_inventory {
     display: flex;
-    flex-direction: column;
-}
-
-.dog_row {
-    display: flex;
-    justify-content: space-evenly;   
     margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .dog {
-    margin: 1rem;
-    max-width: 32%;
+    padding: 1rem;
+    max-width: 30%;
     font-family: "Oswald";
+}
+
+.dog a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .dog_pic {
@@ -97,26 +98,30 @@
     text-align: center;
     line-height: 15rem;
     flex: 1 1 auto;
+}
+
+.foot_menu a{
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .donate_option {
     background:
         linear-gradient(rgba(125, 0, 125, .5), rgba(125, 0, 125, .5)),
-        url(starter_files/images/donate.jpg) top center/cover;
+        url(starter_files/images/donate.jpg) center/cover;
         width: 33%;
 }
 
 .volunteer_option {
     background:
         linear-gradient(rgba(125, 0, 125, .5), rgba(125, 0, 125, .5)),
-        url(starter_files/images/volunteer.jpg) top center/cover;
+        url(starter_files/images/volunteer.jpg) center/cover;
         width: 33%;
 }
 
 .location_option {
     background:
         linear-gradient(rgba(125, 0, 125, .5), rgba(125, 0, 125, .5)),
-        url(starter_files/images/location.png) top center/cover;
+        url(starter_files/images/location.png) center/cover;
         width: 33%;
 }
